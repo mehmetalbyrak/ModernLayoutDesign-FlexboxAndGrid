@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Grow Kullanımı</title>
+    <style>
+        .flex-container {
+            display: flex;
+        }
+
+        .box {
+            color: white;
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        .box1 {
+            background-color: #FF5722;
+            /* Turuncu */
+            flex-grow: 2;
+            /* Diğerlerinden biraz daha fazla alan kaplar */
+        }
+
+        .box2 {
+            background-color: #3F51B5;
+            /* Mavi */
+            flex-grow: 1;
+        }
+
+        .box3 {
+            background-color: #4CAF50;
+            /* Yeşil */
+            flex-grow: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+    </div>
+
+</body>
+
+</html>
